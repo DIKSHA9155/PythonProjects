@@ -16,6 +16,7 @@ a8"     "" 88 88P'    "8a 88P'    "8a a8P_____88 88P'   "Y8
               88                                             
               88           
 """
+
 def encrypt(word,shift_count,new_word_list):   
     for i in word:
         new_word_list.append(chr(ord(i) + shift_count))
@@ -27,14 +28,15 @@ def decrypt(word,shift_count,new_word_list):
         new_word_list.append(chr(ord(i) - shift_count))
     for j in new_word_list:
         print(str(j),end="")
-
+print(logo)
 word = input("Enter a word : ")
 new_word_list = []
 print("1: Encrypt\n2: Decrypt\n")
-choice = input("Enter your choice : ")
+choice = input("Enter your choice : ").capitalize()
 shift_count = int(input("Enter the shift count : "))
 if choice == "Encrypt":
     encrypt(word,shift_count,new_word_list)
 elif choice == "Decrypt":
     decrypt(word,shift_count,new_word_list)
+
 
