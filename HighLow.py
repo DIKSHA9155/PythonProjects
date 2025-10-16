@@ -1,6 +1,6 @@
 import random
 import sys
-from gamedata import game_data,logo,vs
+from HighLowData import game_data,logo,vs
 
 print(logo)
 
@@ -48,3 +48,4 @@ while game_end == 0:
         print("Invalid Input!")
 
 print(f"Your score = {score}")
+
