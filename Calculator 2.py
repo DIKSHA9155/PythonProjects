@@ -1,3 +1,20 @@
+logo="""
+_____________________
+|  _________________  |
+| | JO           0. | |
+| |_________________| |
+|  ___ ___ ___   ___  |
+| | 7 | 8 | 9 | | + | |
+| |___|___|___| |___| |
+| | 4 | 5 | 6 | | - | |
+| |___|___|___| |___| |
+| | 1 | 2 | 3 | | x | |
+| |___|___|___| |___| |
+| | . | 0 | = | | / | |
+| |___|___|___| |___| |
+|_____________________|
+"""
+print(logo)
 Permission="y"
 def calculator(number1,next_number,operation):
     if operation=="+":      
@@ -17,4 +34,5 @@ while Permission=="y":
  next_number=eval(input("What's the next number?:"))
  result = calculator(number1,next_number,operation)
  print(f"{float(number1)}{operation}{float(next_number)}={calculator(number1,next_number,operation)}\n")
+
  Permission=input(f"Type 'y' to continue calculating with {(number1)} , or type 'n' to start a new calculation:\n").lower()
