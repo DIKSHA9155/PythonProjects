@@ -1,3 +1,10 @@
+print(r"""                                                                   
+   mmm         ""#                  ""#             m                 
+ m"   "  mmm     #     mmm   m   m    #     mmm   mm#mm   mmm    m mm 
+ #      "   #    #    #"  "  #   #    #    "   #    #    #" "#   #"  "
+ #      m"""#    #    #      #   #    #    m"""#    #    #   #   #    
+  "mmm" "mm"#    "mm  "#mm"  "mm"#    "mm  "mm"#    "mm  "#m#"   #                                                                                                                                          
+""")
 logo="""
 _____________________
 |  _________________  |
@@ -36,3 +43,4 @@ while Permission=="y":
  print(f"{float(number1)}{operation}{float(next_number)}={calculator(number1,next_number,operation)}\n")
 
  Permission=input(f"Type 'y' to continue calculating with {(number1)} , or type 'n' to start a new calculation:\n").lower()
+
