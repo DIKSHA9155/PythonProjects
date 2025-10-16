@@ -1,14 +1,16 @@
 import random
-logo="""
+print("""
  _                                             
 ( )                                            
 | |__    _ _  ___    __   ___ ___    _ _  ___  
-|  _  \/ _  )  _  \/ _  \  _   _  \/ _  )  _  \
+|  _  \/ _  )  _  \/ _  \  _   _  \/ _  )  _  \\
 | | | | (_| | ( ) | (_) | ( ) ( ) | (_| | ( ) |
 (_) (_)\__ _)_) (_)\__  |_) (_) (_)\__ _)_) (_)
                   ( )_) |                      
                    \___/                 
-"""
+
+""")
+
 notfound_counter = 0
 words = [
     "apple", "banana", "cherry", "date",
@@ -32,7 +34,7 @@ while notfound_counter<=6:
             print(i, end=' ')
         else:
             print("_ ",end='')
-    print();
+    print()
 
     if choose_char not in choice_word:
         print("Incorrect choice!")
