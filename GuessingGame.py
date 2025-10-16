@@ -1,5 +1,5 @@
 import random
- logo="""
+logo="""
  ━━━━━━━━━━━━┏┓━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ━━━━━━━━━━━━┃┃━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ┏━┓━┏┓┏┓┏┓┏┓┃┗━┓┏━━┓┏━┓━━━━┏━━┓┏┓┏┓┏━━┓┏━━┓┏━━┓┏┓┏━┓━┏━━┓━━━━┏━━┓┏━━┓━┏┓┏┓┏━━┓
@@ -24,7 +24,7 @@ def guessing_game(easy_difficult, attempts, number_guessed):
         else:
                 chance-=1
                 print(f"you are left with {chance} chances")
-
+print(logo)
 attempts=0
 print("Welcome to the Number Guessing Gmae!")
 print("I'm thinking of a number between 1 and 10.")
