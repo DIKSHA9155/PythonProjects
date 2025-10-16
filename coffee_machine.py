@@ -1,6 +1,7 @@
-from menu import MENU,resources
+from CoffeeMachineData import MENU,resources,logo1,logo2
 import os
-
+print(logo1)
+print(logo2)
 while True:
     Choice=input("What would you like? Espresso/latte/cappuccino):").lower()
     if Choice=="off":
@@ -36,4 +37,5 @@ while True:
             if Choice == "latte" or Choice == "cappuccino":
                 resources['milk'] -= MENU[Choice]['ingredients']['milk']
             resources['water'] -= MENU[Choice]['ingredients']['water']
+
             resources['coffee'] -= MENU[Choice]['ingredients']['coffee']
