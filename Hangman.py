@@ -1,4 +1,14 @@
 import random
+logo="""
+ _                                             
+( )                                            
+| |__    _ _  ___    __   ___ ___    _ _  ___  
+|  _  \/ _  )  _  \/ _  \  _   _  \/ _  )  _  \
+| | | | (_| | ( ) | (_) | ( ) ( ) | (_| | ( ) |
+(_) (_)\__ _)_) (_)\__  |_) (_) (_)\__ _)_) (_)
+                  ( )_) |                      
+                   \___/                 
+"""
 notfound_counter = 0
 words = [
     "apple", "banana", "cherry", "date",
@@ -143,4 +153,5 @@ while notfound_counter<=6:
         break
         
 if notfound_counter == 6:
+
     print("Game Over!")
